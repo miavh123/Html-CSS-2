@@ -91,12 +91,7 @@
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
  }
- 
- .container:hover{
-    color: brown;
-    transition: .5;
- }
-
+  
  
    
 
@@ -105,23 +100,30 @@ p{
   text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
-   .black{
-   display:flex; 
-     float: none;
-     width: 90%;
-     color: black;
-     justify-content:initial;
- }
-   
-   [class*="col-"] {
-     width: 100%;
-  ;
-   }
-}
 footer{
    display: block;
    text-align: center;
    margin-top: 30vh;
+  
+}
+.black{
+   justify-content: center;
+   margin-right: 20%z;
+   margin-left: 30%;
+   align-items: initial;
+}
+
+@media only screen and (max-width: 768px) {
+
+   
+  
+      .black{
+      display:flex; 
+        float: none;
+        width: 90%;
+        color: rgb(255, 255, 255);
+        justify-content:initial;
+        margin-bottom: 40%;
+    }
   
 }
