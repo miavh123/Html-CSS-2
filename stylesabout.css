@@ -32,19 +32,7 @@
     font-weight: bold;
  }
 
- .paragraph{
-    margin-left: 8%;
-    margin-top: 15%;
- }
-
- .paragraph h1{
-    font-size: 50px;
-    color: black;
-    margin-bottom: 20px;
-    position: initial;
-    display: inline-flex;
-    margin-right: 50%;
-    
+ 
  }
 
  #color{
@@ -100,7 +88,6 @@
       .title{
          margin-left: 6%
       }
-      
       
       
       
