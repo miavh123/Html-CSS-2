@@ -97,23 +97,31 @@
     transition: .5;
  }
 
- .black{
-   display:inline-flex;
-   margin-top:  15px;
-   width: 100%;
-   padding:100px 15%;
-   background-color: black;
-   color: white;
-   height: 50px;
-   position:absolute
-  
+ 
    
+
+p{
+   font-size: large;
+  text-align: center;
 }
 
-.black div{
-  display: inline-flex;
-  text-align: center;
-
-
-
+@media only screen and (max-width: 768px) {
+   .black{
+   display:flex; 
+     float: none;
+     width: 90%;
+     color: black;
+     justify-content:initial;
+ }
+   
+   [class*="col-"] {
+     width: 100%;
+  ;
+   }
+}
+footer{
+   display: block;
+   text-align: center;
+   margin-top: 30vh;
+  
 }

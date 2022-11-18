@@ -62,9 +62,7 @@
     margin: auto;
 
  }
- .black{
-    background-color: black;
- }
+ 
  
  
 
@@ -100,23 +98,43 @@
 
     }
  
-    .black{
-      display:inline-flex;
-      margin-top:  15px;
-      width: 100%;
-      padding:100px 15%;
-      background-color: black;
-      color: white;
-      height: 50px;
-      position:absolute
+    
      
       
-   }
+ 
    
-   .black div{
-     display: inline-flex;
-     text-align: center;
   
-  
+   
+   @media only screen and (max-width: 768px) {
+      .black{
+      display:flex; 
+        float: none;
+        width: 90%;
+        color: rgb(255, 255, 255);
+        justify-content:initial;
+    }
+      
+      [class*="col-"] {
+        width: 100%;
+     ;
+      }
+   }
+   footer{
+      display: block;
+   text-align: center;
+   margin-top: 30vh;
   
    }
+   .center {
+      float: left;
+      margin: auto;
+      width: 50%;
+      border: 3px solid green;
+      padding: 10px;
+    }
+    @media only screen and (max-width: 768px) {
+      form {
+        width: 100%;
+        padding: 100px 0; /* add this */
+      }
+    }
